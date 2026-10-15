@@ -1,0 +1,14 @@
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Build output
+**/build/
+.gradle/
+local.properties
+
+# Dependencies and logs
+**/node_modules/
+**/logs/
+*.log

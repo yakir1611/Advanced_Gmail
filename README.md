@@ -5,8 +5,8 @@ My Gmail is a gmail application created by Matan Badichi, Yakir Sharabi, and Roi
 ---
 ## Features
 
-- **User Registration**: Create an account by providing your username, and password.  
-  **Note**: Each username is unique, ensuring a distinct identity for every user so if you enter with an exsiting username the application will login to the existing user.
+- **User Registration**: Create an account by providing your username and password.  
+  **Note**: Each username is unique, ensuring a distinct identity for every user so if you enter with an existing username the application will login to the existing user.
 
 - **User Authentication**: Log in to the application using your registered credentials.
 
@@ -35,7 +35,7 @@ To use MongoDB with Advanced Gmail, follow these steps:
 
 2. **Start MongoDB**:
    - Once installed, start MongoDB by running the appropriate command for your operating system:
-     ```bashs
+     ```bash
      docker run -d --name mongo -p 27017:27017 mongo:6
      ```
 
@@ -60,9 +60,9 @@ You are now all set to run Advanced Gmail and start managing your emails with th
 
 Clone the project repository to your local machine.
 Open the terminal or command prompt and navigate to the server's directory.
-for example: enter the folder path in the navigation bar and type "wsl" and after that enter "code ." and than follow the steps below to run the application:
+for example: enter the folder path in the navigation bar and type "wsl" and after that enter "code ." and then follow the steps below to run the application:
 
-1. **Start MongoDB**: (if you didnt already) 
+1. **Start MongoDB**: (if you didn't already) 
    To run MongoDB, use the following Docker command:
    ```bash
    docker run -d --name mongo -p 27017:27017 mongo:6
@@ -72,11 +72,11 @@ If you have already run the above command previously, you can start MongoDB with
 ```bash
 docker start mongo
 ```
-we expet to get "mongo" in the terminal.
+we expect to get "mongo" in the terminal.
 
 
 3. Required dependencies:  dotenv, mongoose, express
-if you dont have these dependencies than do these commends in the terminal:
+if you don't have these dependencies, run these commands in the terminal:
 ```bash
 npm install dotenv
 npm install mongoose
@@ -98,8 +98,8 @@ The expected output is:
 🚀 Server running on http://localhost:3000
 
 ## Running the client
-You need to open the client folder in AndroidStudio
-Navigate to the client folder write cmd and than you need to enter your full path in order to enter AndroidStudio directly from the cmd
+You need to open the client folder in Android Studio
+Navigate to the client folder write cmd and then you need to enter your full path in order to enter Android Studio directly from the cmd
 for example that worked for yakir's computer: 
 ```bash
 "C:\Program Files\Android\Android Studio\bin\studio64.exe" .
@@ -110,15 +110,15 @@ now create an emulator or connect with your phone using USB
 - Enter your **email** and **password**.
 - If you don’t have an account yet, click **Create account** to register first.
 - Click **Next** to continue and sign in.
-- **Becuse you are running on the emulator dont press the running on phone button**
+- **Because you are running on the emulator, don't press the running on phone button**
 - **Dark Mode Support**: Users can switch the login screen to Dark Mode for a more comfortable viewing experience in low-light environments.
 
 ![Login Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/sign_in.png) ![Dark Login Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Dark_login.jpg)
 
 
 ## Login for phone
-### make sure your language settings on your phone is english.  
-### **Becuse you are running on your phone you need to press the running on phone button first, even if you are going to create a new accont you need to press on the running on phone button** (it looks like nothing happend but believe us a lot have changed in the universe ;) )
+### make sure your language settings on your phone is English.  
+### **Because you are running on your phone you need to press the running on phone button first, even if you are going to create a new account you need to press on the running on phone button** (it looks like nothing happend but believe us a lot have changed in the universe ;) )
 - Enter your **email** and **password**.
 - If you don’t have an account yet, click **Create account** to register first.
 - Click **Next** to continue and sign in.
@@ -136,7 +136,7 @@ From the login screen, click **Create account** and complete the registration fo
   The system will automatically generate your email address from it and display it beneath the field  
   (e.g., `user205` → `user205@mail.com`).
 - **Full name**
-- **email(optinal)** - enter your mail
+- **email (optional)** - enter your mail
 - **Date of birth** (dd/mm/yyyy)
 - **Password** and **Confirm password**
 - **Gender**
@@ -149,7 +149,7 @@ Click **Create account** to finish. Your new credentials can then be used to sig
  
 ![Mailbox home](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Mailbox.png) ![Dark inbox Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Dark_inbox.jpg)
 
-After signing in, you land on your personal Inbox .
+After signing in, you land on your personal Inbox.
 
 - The **sidebar** at the top-left corner provides quick access to Inbox, Sent, Drafts, Spam, trash and logout.
 - Use the **search bar** at the top-right corner to find messages.
@@ -167,7 +167,7 @@ The application provides a **sidebar** for easy navigation. It includes the foll
 
 
 - **Inbox**: View all received emails in your inbox.
-- **Send**: Access the sent emails.
+- **Sent**: Access the sent emails.
 - **Drafts**: View and manage emails you've saved as drafts.
 - **Spam**: Manage emails marked as spam.
 - **Trash**: View and manage deleted emails.

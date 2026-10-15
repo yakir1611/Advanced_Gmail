@@ -1,0 +1,4 @@
+# Built React bundle: do not count it in the repo language stats
+**/public/static/** linguist-generated
+**/build/** linguist-generated
+*.map linguist-generated

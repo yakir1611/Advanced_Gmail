@@ -17,3 +17,8 @@
 *.exe
 *.out
 *.app
+
+# IDE settings
+.idea/
+.vscode/
+*.iml

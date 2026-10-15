@@ -29,11 +29,10 @@ docker-compose up -d server && docker-compose up -d client
 ```
 
 ## Features
-- Login, Singup, Inbox, Sent, Starred, Archive, Trash
-- Labels (create, assign, )
+- Login, Sign up, Inbox, Sent, Starred, Archive, Trash
+- Labels (create, assign)
 - Compose, Reply, Forward with suggestions
 - Search and pagination
-- 
 # 🚨 Navigate to `http://localhost:3000/login`. 🚨
 ## Login
 
@@ -82,7 +81,7 @@ After signing in, you land on your personal mailbox.
 - The **toolbar** above the list supports selection, refresh, pagination.
 - Message **counts** appear next to each label.
 
-All functionality behaves like a standard email client (compose, reply, forward, labels, archive/trash, star, search ).
+All functionality behaves like a standard email client (compose, reply, forward, labels, archive/trash, star, search).
 
 
 ## Compose a Message
@@ -123,7 +122,6 @@ All changes are persisted and reflected in label counters.
   
 - All API requests (except registration and login) require a user-id header.
 - Requests without a valid user-id will return 400 or 404 errors.
-- 
 - **Token-based auth (Bearer).**  
   The client authenticates by requesting a token and then attaching it to every API call.
 
@@ -164,7 +162,7 @@ All changes are persisted and reflected in label counters.
 * CMake
 * React
 * HTML + CSS
-* Javascript
+* JavaScript
 
 ---
 

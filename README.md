@@ -113,7 +113,7 @@ now create an emulator or connect with your phone using USB
 - **Because you are running on the emulator, don't press the running on phone button**
 - **Dark Mode Support**: Users can switch the login screen to Dark Mode for a more comfortable viewing experience in low-light environments.
 
-![Login Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/sign_in.png) ![Dark Login Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Dark_login.jpg)
+![Login Screenshot](screenshots/android/sign_in.png) ![Dark Login Screenshot](screenshots/android/Dark_login.jpg)
 
 
 ## Login for phone
@@ -129,7 +129,7 @@ now create an emulator or connect with your phone using USB
 
 From the login screen, click **Create account** and complete the registration form:
 
-![Create account](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Create_Account.png)
+![Create account](screenshots/android/Create_Account.png)
 
 
 - **Username** — choose a unique username.  
@@ -147,7 +147,7 @@ Click **Create account** to finish. Your new credentials can then be used to sig
 
 ## Inbox  (Home)
  
-![Mailbox home](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Mailbox.png) ![Dark inbox Screenshot](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Dark_inbox.jpg)
+![Mailbox home](screenshots/android/Mailbox.png) ![Dark inbox Screenshot](screenshots/android/Dark_inbox.jpg)
 
 After signing in, you land on your personal Inbox.
 
@@ -163,7 +163,7 @@ After signing in, you land on your personal Inbox.
 
 The application provides a **sidebar** for easy navigation. It includes the following buttons:
 
-![Sidebar Navigation](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/sidebar.png)
+![Sidebar Navigation](screenshots/android/sidebar.png)
 
 
 - **Inbox**: View all received emails in your inbox.
@@ -177,12 +177,12 @@ These buttons provide quick access to different sections of the email system, ma
 
 ## Reading a Message 
 
- ![ReadMail](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/ReadingMessge.png)
+ ![ReadMail](screenshots/android/ReadingMessge.png)
 
 
 ## Compose a Message
  
-![Compose new message](https://github.com/RoyMeiri/Advanced_Gmail/raw/yakir_branch/screenshots/Compose.png)
+![Compose new message](screenshots/android/Compose.png)
 - Click **Compose** to open the new-message panel.
 - In the **To** field, type username of users in the system.
 - Enter your message and click **Send**.
